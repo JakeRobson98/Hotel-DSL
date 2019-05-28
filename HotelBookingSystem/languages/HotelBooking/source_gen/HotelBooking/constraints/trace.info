@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root>
+    <file name="ConstraintsAspectDescriptor.java">
+      <unit at="13,0,47,0" name="HotelBooking.constraints.ConstraintsAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:c86ea960-bac5-4a16-bde1-2085176b3d2b(HotelBooking.constraints)/3247502366839929057">
+    <file name="Room_Constraints.java">
+      <node id="3247502366839929057" at="20,29,21,134" concept="10" />
+      <node id="3247502366839929057" at="28,128,29,133" concept="5" />
+      <node id="3247502366839929057" at="29,133,30,0" concept="7" />
+      <node id="3247502366839929057" at="31,55,32,72" concept="1" />
+      <node id="3247502366839929057" at="33,9,34,0" concept="7" />
+      <node id="3247502366839929057" at="34,0,35,22" concept="6" />
+      <node id="2409186368944334291" at="39,128,40,237" concept="6" />
+      <node id="3247502366839929057" at="42,0,43,0" concept="8" trace="canBeParentBreakingPoint" />
+      <node id="3247502366839929057" at="20,0,23,0" concept="0" trace="Room_Constraints#()V" />
+      <node id="3247502366839929057" at="30,0,33,9" concept="3" />
+      <node id="3247502366839929057" at="39,0,42,0" concept="9" trace="staticCanBeAParent#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)Z" />
+      <node id="3247502366839929057" at="27,0,37,0" concept="4" trace="invoke#(Ljetbrains/mps/smodel/runtime/ConstraintContext_CanBeParent;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Ljava/lang/Boolean;" />
+      <node id="3247502366839929057" at="25,105,37,6" concept="6" />
+      <node id="3247502366839929057" at="24,0,39,0" concept="4" trace="calculateCanBeParentConstraint#()Ljetbrains/mps/smodel/runtime/ConstraintFunction;" />
+      <scope id="3247502366839929057" at="20,29,21,134" />
+      <scope id="3247502366839929057" at="31,55,32,72" />
+      <scope id="269847891528108937" at="39,128,40,237" />
+      <scope id="3247502366839929057" at="20,0,23,0" />
+      <scope id="3247502366839929057" at="39,0,42,0">
+        <var name="childConcept" id="3247502366839929057" />
+        <var name="childNode" id="3247502366839929057" />
+        <var name="link" id="3247502366839929057" />
+        <var name="node" id="3247502366839929057" />
+      </scope>
+      <scope id="3247502366839929057" at="28,128,35,22">
+        <var name="result" id="3247502366839929057" />
+      </scope>
+      <scope id="3247502366839929057" at="27,0,37,0">
+        <var name="checkingNodeContext" id="3247502366839929057" />
+        <var name="context" id="3247502366839929057" />
+      </scope>
+      <scope id="3247502366839929057" at="25,105,37,6" />
+      <scope id="3247502366839929057" at="24,0,39,0" />
+      <unit id="3247502366839929057" at="26,15,37,5" name="HotelBooking.constraints.Room_Constraints$1" />
+      <unit id="3247502366839929057" at="19,0,44,0" name="HotelBooking.constraints.Room_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:c86ea960-bac5-4a16-bde1-2085176b3d2b(HotelBooking.constraints)/3247502366840173666">
+    <file name="StandardRoom_Constraints.java">
+      <node id="3247502366840173666" at="9,37,10,142" concept="10" />
+      <node id="3247502366840173666" at="9,0,12,0" concept="0" trace="StandardRoom_Constraints#()V" />
+      <scope id="3247502366840173666" at="9,37,10,142" />
+      <scope id="3247502366840173666" at="9,0,12,0" />
+      <unit id="3247502366840173666" at="8,0,14,0" name="HotelBooking.constraints.StandardRoom_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:c86ea960-bac5-4a16-bde1-2085176b3d2b(HotelBooking.constraints)/3247502366840448652">
+    <file name="Bed_Constraints.java">
+      <node id="3247502366840448652" at="9,28,10,133" concept="10" />
+      <node id="3247502366840448652" at="9,0,12,0" concept="0" trace="Bed_Constraints#()V" />
+      <scope id="3247502366840448652" at="9,28,10,133" />
+      <scope id="3247502366840448652" at="9,0,12,0" />
+      <unit id="3247502366840448652" at="8,0,14,0" name="HotelBooking.constraints.Bed_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:c86ea960-bac5-4a16-bde1-2085176b3d2b(HotelBooking.constraints)/5472535497240842529">
+    <file name="Booking_Constraints.java">
+      <node id="5472535497240842529" at="30,32,31,137" concept="10" />
+      <node id="5472535497240842529" at="38,127,39,128" concept="5" />
+      <node id="5472535497240842529" at="39,128,40,0" concept="7" />
+      <node id="5472535497240842529" at="41,55,42,71" concept="1" />
+      <node id="5472535497240842529" at="43,9,44,0" concept="7" />
+      <node id="5472535497240842529" at="44,0,45,22" concept="6" />
+      <node id="5472535497240842529" at="50,84,51,119" concept="5" />
+      <node id="5472535497240843007" at="54,40,55,20" concept="6" />
+      <node id="5472535497240843007" at="58,70,59,43" concept="5" />
+      <node id="5472535497241270583" at="60,343,61,22" concept="6" />
+      <node id="5472535497241273771" at="62,9,63,21" concept="6" />
+      <node id="5472535497242852652" at="68,40,69,20" concept="6" />
+      <node id="5472535497242852652" at="72,70,73,43" concept="5" />
+      <node id="5472535497242874894" at="74,296,75,22" concept="6" />
+      <node id="5472535497242877301" at="76,9,77,21" concept="6" />
+      <node id="5472535497240842529" at="79,7,80,22" concept="6" />
+      <node id="5472535497243550227" at="84,96,85,20" concept="6" />
+      <node id="5472535497243564347" at="87,5,88,17" concept="6" />
+      <node id="5472535497240842529" at="90,0,91,0" concept="8" trace="canBeChildBreakingPoint" />
+      <node id="5472535497240842529" at="30,0,33,0" concept="0" trace="Booking_Constraints#()V" />
+      <node id="5472535497240842529" at="40,0,43,9" concept="3" />
+      <node id="5472535497241243509" at="59,43,62,9" concept="3" />
+      <node id="5472535497242854748" at="73,43,76,9" concept="3" />
+      <node id="852062025608375018" at="83,2438,86,7" concept="3" />
+      <node id="5472535497240843007" at="53,0,57,0" concept="4" trace="hasOwnValidator#()Z" />
+      <node id="5472535497242852652" at="67,0,71,0" concept="4" trace="hasOwnValidator#()Z" />
+      <node id="5472535497243510091" at="82,128,87,5" concept="3" />
+      <node id="5472535497240843007" at="57,0,65,0" concept="4" trace="validateValue#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Z" />
+      <node id="5472535497242852652" at="71,0,79,0" concept="4" trace="validateValue#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Z" />
+      <node id="5472535497240842529" at="82,0,90,0" concept="9" trace="staticCanBeAChild#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)Z" />
+      <node id="5472535497240842529" at="37,0,47,0" concept="4" trace="invoke#(Ljetbrains/mps/smodel/runtime/ConstraintContext_CanBeChild;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Ljava/lang/Boolean;" />
+      <node id="5472535497240842529" at="35,103,47,6" concept="6" />
+      <node id="5472535497240843007" at="51,119,65,7" concept="1" />
+      <node id="5472535497242852652" at="65,7,79,7" concept="1" />
+      <node id="5472535497240842529" at="34,0,49,0" concept="4" trace="calculateCanBeChildConstraint#()Ljetbrains/mps/smodel/runtime/ConstraintFunction;" />
+      <node id="5472535497240842529" at="49,0,82,0" concept="4" trace="getSpecifiedProperties#()Ljava/util/Map;" />
+      <scope id="5472535497240842529" at="30,32,31,137" />
+      <scope id="5472535497240842529" at="41,55,42,71" />
+      <scope id="5472535497240843007" at="54,40,55,20" />
+      <scope id="5472535497241243511" at="60,343,61,22" />
+      <scope id="5472535497242852652" at="68,40,69,20" />
+      <scope id="5472535497242854750" at="74,296,75,22" />
+      <scope id="852062025608375020" at="84,96,85,20" />
+      <scope id="5472535497240842529" at="30,0,33,0" />
+      <scope id="5472535497243510093" at="83,2438,86,7" />
+      <scope id="5472535497240843007" at="53,0,57,0" />
+      <scope id="5472535497242852652" at="67,0,71,0" />
+      <scope id="5472535497240843007" at="58,70,63,21">
+        <var name="propertyName" id="5472535497240843007" />
+      </scope>
+      <scope id="5472535497242852652" at="72,70,77,21">
+        <var name="propertyName" id="5472535497242852652" />
+      </scope>
+      <scope id="5472535497243509182" at="82,128,88,17" />
+      <scope id="5472535497240842529" at="38,127,45,22">
+        <var name="result" id="5472535497240842529" />
+      </scope>
+      <scope id="5472535497240843007" at="57,0,65,0">
+        <var name="node" id="5472535497240843007" />
+        <var name="propertyValue" id="5472535497240843007" />
+      </scope>
+      <scope id="5472535497242852652" at="71,0,79,0">
+        <var name="node" id="5472535497242852652" />
+        <var name="propertyValue" id="5472535497242852652" />
+      </scope>
+      <scope id="5472535497240842529" at="82,0,90,0">
+        <var name="childConcept" id="5472535497240842529" />
+        <var name="link" id="5472535497240842529" />
+        <var name="node" id="5472535497240842529" />
+        <var name="parentNode" id="5472535497240842529" />
+      </scope>
+      <scope id="5472535497240842529" at="37,0,47,0">
+        <var name="checkingNodeContext" id="5472535497240842529" />
+        <var name="context" id="5472535497240842529" />
+      </scope>
+      <scope id="5472535497240842529" at="35,103,47,6" />
+      <scope id="5472535497240842529" at="34,0,49,0" />
+      <scope id="5472535497240842529" at="50,84,80,22">
+        <var name="properties" id="5472535497240842529" />
+      </scope>
+      <scope id="5472535497240842529" at="49,0,82,0" />
+      <unit id="5472535497240842529" at="36,15,47,5" name="HotelBooking.constraints.Booking_Constraints$1" />
+      <unit id="5472535497240843007" at="52,152,65,5" name="HotelBooking.constraints.Booking_Constraints$2" />
+      <unit id="5472535497242852652" at="66,152,79,5" name="HotelBooking.constraints.Booking_Constraints$3" />
+      <unit id="5472535497240842529" at="29,0,92,0" name="HotelBooking.constraints.Booking_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:c86ea960-bac5-4a16-bde1-2085176b3d2b(HotelBooking.constraints)/5472535497242923319">
+    <file name="Date_Constraints.java">
+      <node id="5472535497242923319" at="17,29,18,134" concept="10" />
+      <node id="5472535497242923319" at="22,84,23,119" concept="5" />
+      <node id="5472535497242923320" at="26,40,27,20" concept="6" />
+      <node id="5472535497242923320" at="30,70,31,36" concept="5" />
+      <node id="5472535497242946276" at="32,125,33,22" concept="6" />
+      <node id="5472535497242948938" at="34,9,35,21" concept="6" />
+      <node id="5472535497242950790" at="40,40,41,20" concept="6" />
+      <node id="5472535497242950790" at="44,70,45,38" concept="5" />
+      <node id="5472535497242950803" at="46,125,47,22" concept="6" />
+      <node id="5472535497242950805" at="48,9,49,21" concept="6" />
+      <node id="5472535497242956266" at="54,40,55,20" concept="6" />
+      <node id="5472535497242956266" at="58,70,59,37" concept="5" />
+      <node id="5472535497242956279" at="60,72,61,22" concept="6" />
+      <node id="5472535497242956281" at="62,9,63,21" concept="6" />
+      <node id="5472535497242923319" at="65,7,66,22" concept="6" />
+      <node id="5472535497242923319" at="17,0,20,0" concept="0" trace="Date_Constraints#()V" />
+      <node id="5472535497242923791" at="31,36,34,9" concept="3" />
+      <node id="5472535497242950793" at="45,38,48,9" concept="3" />
+      <node id="5472535497242956269" at="59,37,62,9" concept="3" />
+      <node id="5472535497242923320" at="25,0,29,0" concept="4" trace="hasOwnValidator#()Z" />
+      <node id="5472535497242950790" at="39,0,43,0" concept="4" trace="hasOwnValidator#()Z" />
+      <node id="5472535497242956266" at="53,0,57,0" concept="4" trace="hasOwnValidator#()Z" />
+      <node id="5472535497242923320" at="29,0,37,0" concept="4" trace="validateValue#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Z" />
+      <node id="5472535497242950790" at="43,0,51,0" concept="4" trace="validateValue#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Z" />
+      <node id="5472535497242956266" at="57,0,65,0" concept="4" trace="validateValue#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Z" />
+      <node id="5472535497242923320" at="23,119,37,7" concept="1" />
+      <node id="5472535497242950790" at="37,7,51,7" concept="1" />
+      <node id="5472535497242956266" at="51,7,65,7" concept="1" />
+      <node id="5472535497242923319" at="21,0,68,0" concept="4" trace="getSpecifiedProperties#()Ljava/util/Map;" />
+      <scope id="5472535497242923319" at="17,29,18,134" />
+      <scope id="5472535497242923320" at="26,40,27,20" />
+      <scope id="5472535497242923793" at="32,125,33,22" />
+      <scope id="5472535497242950790" at="40,40,41,20" />
+      <scope id="5472535497242950802" at="46,125,47,22" />
+      <scope id="5472535497242956266" at="54,40,55,20" />
+      <scope id="5472535497242956278" at="60,72,61,22" />
+      <scope id="5472535497242923319" at="17,0,20,0" />
+      <scope id="5472535497242923320" at="25,0,29,0" />
+      <scope id="5472535497242950790" at="39,0,43,0" />
+      <scope id="5472535497242956266" at="53,0,57,0" />
+      <scope id="5472535497242923320" at="30,70,35,21">
+        <var name="propertyName" id="5472535497242923320" />
+      </scope>
+      <scope id="5472535497242950790" at="44,70,49,21">
+        <var name="propertyName" id="5472535497242950790" />
+      </scope>
+      <scope id="5472535497242956266" at="58,70,63,21">
+        <var name="propertyName" id="5472535497242956266" />
+      </scope>
+      <scope id="5472535497242923320" at="29,0,37,0">
+        <var name="node" id="5472535497242923320" />
+        <var name="propertyValue" id="5472535497242923320" />
+      </scope>
+      <scope id="5472535497242950790" at="43,0,51,0">
+        <var name="node" id="5472535497242950790" />
+        <var name="propertyValue" id="5472535497242950790" />
+      </scope>
+      <scope id="5472535497242956266" at="57,0,65,0">
+        <var name="node" id="5472535497242956266" />
+        <var name="propertyValue" id="5472535497242956266" />
+      </scope>
+      <scope id="5472535497242923319" at="22,84,66,22">
+        <var name="properties" id="5472535497242923319" />
+      </scope>
+      <scope id="5472535497242923319" at="21,0,68,0" />
+      <unit id="5472535497242923320" at="24,145,37,5" name="HotelBooking.constraints.Date_Constraints$1" />
+      <unit id="5472535497242950790" at="38,147,51,5" name="HotelBooking.constraints.Date_Constraints$2" />
+      <unit id="5472535497242956266" at="52,146,65,5" name="HotelBooking.constraints.Date_Constraints$3" />
+      <unit id="5472535497242923319" at="16,0,69,0" name="HotelBooking.constraints.Date_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:c86ea960-bac5-4a16-bde1-2085176b3d2b(HotelBooking.constraints)/5472535497243488033">
+    <file name="BookingManager_Constraints.java">
+      <node id="5472535497243488033" at="9,39,10,144" concept="10" />
+      <node id="5472535497243488033" at="9,0,12,0" concept="0" trace="BookingManager_Constraints#()V" />
+      <scope id="5472535497243488033" at="9,39,10,144" />
+      <scope id="5472535497243488033" at="9,0,12,0" />
+      <unit id="5472535497243488033" at="8,0,14,0" name="HotelBooking.constraints.BookingManager_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:c86ea960-bac5-4a16-bde1-2085176b3d2b(HotelBooking.constraints)/6580025700317126437">
+    <file name="Facility_Constraints.java">
+      <node id="6580025700317126437" at="9,33,10,138" concept="10" />
+      <node id="6580025700317126437" at="9,0,12,0" concept="0" trace="Facility_Constraints#()V" />
+      <scope id="6580025700317126437" at="9,33,10,138" />
+      <scope id="6580025700317126437" at="9,0,12,0" />
+      <unit id="6580025700317126437" at="8,0,14,0" name="HotelBooking.constraints.Facility_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:c86ea960-bac5-4a16-bde1-2085176b3d2b(HotelBooking.constraints)/7800746296160739299">
+    <file name="Studio_Constraints.java">
+      <node id="7800746296160739299" at="9,31,10,136" concept="10" />
+      <node id="7800746296160739299" at="9,0,12,0" concept="0" trace="Studio_Constraints#()V" />
+      <scope id="7800746296160739299" at="9,31,10,136" />
+      <scope id="7800746296160739299" at="9,0,12,0" />
+      <unit id="7800746296160739299" at="8,0,14,0" name="HotelBooking.constraints.Studio_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:c86ea960-bac5-4a16-bde1-2085176b3d2b(HotelBooking.constraints)/9200123026167525888">
+    <file name="Suite_Constraints.java">
+      <node id="9200123026167525888" at="9,30,10,135" concept="10" />
+      <node id="9200123026167525888" at="9,0,12,0" concept="0" trace="Suite_Constraints#()V" />
+      <scope id="9200123026167525888" at="9,30,10,135" />
+      <scope id="9200123026167525888" at="9,0,12,0" />
+      <unit id="9200123026167525888" at="8,0,14,0" name="HotelBooking.constraints.Suite_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:c86ea960-bac5-4a16-bde1-2085176b3d2b(HotelBooking.constraints)/9200123026168040705">
+    <file name="Chargeable_Constraints.java">
+      <node id="9200123026168040705" at="20,35,21,149" concept="10" />
+      <node id="9200123026168040705" at="25,84,26,119" concept="5" />
+      <node id="2409186368943114539" at="29,37,30,20" concept="6" />
+      <node id="2409186368943114539" at="33,42,34,38" concept="5" />
+      <node id="2409186368943114548" at="34,38,35,176" concept="6" />
+      <node id="2409186368943114539" at="38,37,39,20" concept="6" />
+      <node id="2409186368943114539" at="42,62,43,38" concept="5" />
+      <node id="2409186368943380694" at="43,38,44,214" concept="1" />
+      <node id="2409186368943941180" at="46,65,47,683" concept="1" />
+      <node id="2409186368943114539" at="52,40,53,20" concept="6" />
+      <node id="2409186368943114539" at="56,70,57,38" concept="5" />
+      <node id="2409186368943465488" at="58,173,59,22" concept="6" />
+      <node id="2409186368943138364" at="61,176,62,171" concept="1" />
+      <node id="2409186368943366237" at="64,179,65,170" concept="1" />
+      <node id="2409186368943168728" at="66,9,67,20" concept="6" />
+      <node id="2409186368943386607" at="72,37,73,20" concept="6" />
+      <node id="2409186368943386607" at="76,62,77,39" concept="5" />
+      <node id="2409186368943406176" at="77,39,78,215" concept="1" />
+      <node id="2409186368943412377" at="79,486,80,175" concept="1" />
+      <node id="2409186368943386607" at="84,40,85,20" concept="6" />
+      <node id="2409186368943386607" at="88,70,89,39" concept="5" />
+      <node id="2409186368944232780" at="90,173,91,243" concept="6" />
+      <node id="2409186368944263176" at="92,9,93,20" concept="6" />
+      <node id="9200123026168040705" at="95,7,96,22" concept="6" />
+      <node id="9200123026168040705" at="20,0,23,0" concept="0" trace="Chargeable_Constraints#()V" />
+      <node id="2409186368943938828" at="45,173,48,11" concept="2" />
+      <node id="2409186368943456716" at="57,38,60,9" concept="3" />
+      <node id="2409186368943126384" at="60,9,63,9" concept="3" />
+      <node id="2409186368943360980" at="63,9,66,9" concept="3" />
+      <node id="2409186368943386665" at="78,215,81,9" concept="3" />
+      <node id="2409186368944230488" at="89,39,92,9" concept="3" />
+      <node id="2409186368943114539" at="28,0,32,0" concept="4" trace="hasOwnGetter#()Z" />
+      <node id="2409186368943114539" at="37,0,41,0" concept="4" trace="hasOwnSetter#()Z" />
+      <node id="2409186368943114539" at="51,0,55,0" concept="4" trace="hasOwnValidator#()Z" />
+      <node id="2409186368943386607" at="71,0,75,0" concept="4" trace="hasOwnSetter#()Z" />
+      <node id="2409186368943386607" at="83,0,87,0" concept="4" trace="hasOwnValidator#()Z" />
+      <node id="2409186368943114539" at="32,0,37,0" concept="4" trace="getValue#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/Object;" />
+      <node id="2409186368943973607" at="44,214,49,9" concept="3" />
+      <node id="2409186368943386607" at="75,0,83,0" concept="4" trace="setValue#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)V" />
+      <node id="2409186368943386607" at="87,0,95,0" concept="4" trace="validateValue#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Z" />
+      <node id="2409186368943114539" at="41,0,51,0" concept="4" trace="setValue#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)V" />
+      <node id="2409186368943114539" at="55,0,69,0" concept="4" trace="validateValue#(Lorg/jetbrains/mps/openapi/model/SNode;Ljava/lang/String;)Z" />
+      <node id="2409186368943386607" at="69,7,95,7" concept="1" />
+      <node id="2409186368943114539" at="26,119,69,7" concept="1" />
+      <node id="9200123026168040705" at="24,0,98,0" concept="4" trace="getSpecifiedProperties#()Ljava/util/Map;" />
+      <scope id="9200123026168040705" at="20,35,21,149" />
+      <scope id="2409186368943114539" at="29,37,30,20" />
+      <scope id="2409186368943114539" at="38,37,39,20" />
+      <scope id="2409186368943938830" at="46,65,47,683" />
+      <scope id="2409186368943114539" at="52,40,53,20" />
+      <scope id="2409186368943456718" at="58,173,59,22" />
+      <scope id="2409186368943126386" at="61,176,62,171" />
+      <scope id="2409186368943360982" at="64,179,65,170" />
+      <scope id="2409186368943386607" at="72,37,73,20" />
+      <scope id="2409186368943386667" at="79,486,80,175" />
+      <scope id="2409186368943386607" at="84,40,85,20" />
+      <scope id="2409186368944230490" at="90,173,91,243" />
+      <scope id="2409186368943114539" at="33,42,35,176">
+        <var name="propertyName" id="2409186368943114539" />
+      </scope>
+      <scope id="9200123026168040705" at="20,0,23,0" />
+      <scope id="2409186368943938828" at="45,173,48,11">
+        <var name="child" id="2409186368943938831" />
+      </scope>
+      <scope id="2409186368943973608" at="45,173,48,11" />
+      <scope id="2409186368943114539" at="28,0,32,0" />
+      <scope id="2409186368943114539" at="37,0,41,0" />
+      <scope id="2409186368943114539" at="51,0,55,0" />
+      <scope id="2409186368943386607" at="71,0,75,0" />
+      <scope id="2409186368943386607" at="83,0,87,0" />
+      <scope id="2409186368943114539" at="32,0,37,0">
+        <var name="node" id="2409186368943114539" />
+      </scope>
+      <scope id="2409186368943386607" at="76,62,81,9">
+        <var name="propertyName" id="2409186368943386607" />
+      </scope>
+      <scope id="2409186368943386607" at="88,70,93,20">
+        <var name="propertyName" id="2409186368943386607" />
+      </scope>
+      <scope id="2409186368943114539" at="42,62,49,9">
+        <var name="propertyName" id="2409186368943114539" />
+      </scope>
+      <scope id="2409186368943386607" at="75,0,83,0">
+        <var name="node" id="2409186368943386607" />
+        <var name="propertyValue" id="2409186368943386607" />
+      </scope>
+      <scope id="2409186368943386607" at="87,0,95,0">
+        <var name="node" id="2409186368943386607" />
+        <var name="propertyValue" id="2409186368943386607" />
+      </scope>
+      <scope id="2409186368943114539" at="41,0,51,0">
+        <var name="node" id="2409186368943114539" />
+        <var name="propertyValue" id="2409186368943114539" />
+      </scope>
+      <scope id="2409186368943114539" at="56,70,67,20">
+        <var name="propertyName" id="2409186368943114539" />
+      </scope>
+      <scope id="2409186368943114539" at="55,0,69,0">
+        <var name="node" id="2409186368943114539" />
+        <var name="propertyValue" id="2409186368943114539" />
+      </scope>
+      <scope id="9200123026168040705" at="25,84,96,22">
+        <var name="properties" id="9200123026168040705" />
+      </scope>
+      <scope id="9200123026168040705" at="24,0,98,0" />
+      <unit id="2409186368943386607" at="70,148,95,5" name="HotelBooking.constraints.Chargeable_Constraints$2" />
+      <unit id="2409186368943114539" at="27,147,69,5" name="HotelBooking.constraints.Chargeable_Constraints$1" />
+      <unit id="9200123026168040705" at="19,0,99,0" name="HotelBooking.constraints.Chargeable_Constraints" />
+    </file>
+  </root>
+</debug-info>
+

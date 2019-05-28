@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1163670490218:jetbrains.mps.baseLanguage.structure.SwitchStatement" />
+  <root>
+    <file name="ConceptPresentationAspectImpl.java">
+      <unit at="11,0,118,0" name="HotelBooking.structure.ConceptPresentationAspectImpl" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <unit at="10,0,48,0" name="HotelBooking.structure.LanguageConceptSwitch" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <unit at="18,0,205,0" name="HotelBooking.structure.StructureAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:c1ca0d93-0221-4e5d-94f3-6bf04aa3666a(HotelBooking.structure)/2805330507320336433">
+    <file name="EnumerationDescriptor_BedType.java">
+      <node id="2805330507320336433" at="15,42,16,194" concept="9" />
+      <node id="2805330507320336434" at="19,0,20,0" concept="2" trace="VALUE_1_0" />
+      <node id="2805330507320336435" at="20,0,21,0" concept="2" trace="VALUE_2_0" />
+      <node id="2805330507320336433" at="24,62,25,21" concept="6" />
+      <node id="2805330507320336433" at="30,74,31,47" concept="6" />
+      <node id="2805330507320336433" at="37,25,38,18" concept="6" />
+      <node id="2805330507320336434" at="41,15,42,25" concept="6" />
+      <node id="2805330507320336435" at="43,15,44,25" concept="6" />
+      <node id="2805330507320336433" at="45,5,46,16" concept="6" />
+      <node id="2805330507320336433" at="15,0,18,0" concept="0" trace="EnumerationDescriptor_BedType#()V" />
+      <node id="2805330507320336433" at="36,84,39,5" concept="3" />
+      <node id="2805330507320336433" at="22,0,27,0" concept="4" trace="getDefault#()Ljetbrains/mps/smodel/runtime/EnumerationDescriptor/MemberDescriptor;" />
+      <node id="2805330507320336433" at="28,0,33,0" concept="4" trace="getMembers#()Ljava/util/Collection;" />
+      <node id="2805330507320336433" at="39,5,45,5" concept="10" />
+      <node id="2805330507320336433" at="34,0,48,0" concept="4" trace="getMember#(Ljava/lang/String;)Ljetbrains/mps/smodel/runtime/EnumerationDescriptor/MemberDescriptor;" />
+      <scope id="2805330507320336433" at="15,42,16,194" />
+      <scope id="2805330507320336433" at="24,62,25,21" />
+      <scope id="2805330507320336433" at="30,74,31,47" />
+      <scope id="2805330507320336433" at="37,25,38,18" />
+      <scope id="2805330507320336434" at="41,15,42,25" />
+      <scope id="2805330507320336435" at="43,15,44,25" />
+      <scope id="2805330507320336433" at="15,0,18,0" />
+      <scope id="2805330507320336433" at="22,0,27,0" />
+      <scope id="2805330507320336433" at="28,0,33,0" />
+      <scope id="2805330507320336433" at="36,84,46,16" />
+      <scope id="2805330507320336433" at="34,0,48,0">
+        <var name="string" id="2805330507320336433" />
+      </scope>
+      <unit id="2805330507320336433" at="13,0,49,0" name="HotelBooking.structure.EnumerationDescriptor_BedType" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="2805330507320336433" at="30,0,31,0" concept="2" trace="myEnumerationBedType" />
+    </file>
+  </root>
+  <root nodeRef="r:c1ca0d93-0221-4e5d-94f3-6bf04aa3666a(HotelBooking.structure)/3247502366839870126">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="3247502366839870126" at="18,0,19,0" concept="2" trace="props_Hotel" />
+      <node id="3247502366839870126" at="76,34,77,76" concept="5" />
+      <node id="3247502366839870126" at="77,76,78,62" concept="1" />
+      <node id="3247502366839870126" at="78,62,79,35" concept="1" />
+      <node id="3247502366839870126" at="79,35,80,37" concept="1" />
+      <node id="3247502366839870126" at="81,9,82,27" concept="6" />
+      <node id="3247502366839870126" at="75,39,81,9" concept="3" />
+      <scope id="3247502366839870126" at="76,34,80,37">
+        <var name="cpb" id="3247502366839870126" />
+      </scope>
+      <scope id="3247502366839870126" at="75,39,82,27" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="3247502366839870126" at="18,0,19,0" concept="7" trace="Hotel" />
+      <node id="3247502366839870126" at="31,47,32,44" concept="1" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="3247502366839870126" at="25,0,26,0" concept="2" trace="myConceptHotel" />
+      <node id="3247502366839870126" at="65,39,66,30" concept="6" />
+      <node id="3247502366839870126" at="150,63,151,151" concept="5" />
+      <node id="3247502366839870126" at="151,151,152,33" concept="1" />
+      <node id="3247502366839870126" at="152,33,153,71" concept="1" />
+      <node id="3247502366839870126" at="153,71,154,99" concept="1" />
+      <node id="3247502366839870126" at="154,99,155,17" concept="1" />
+      <node id="3247502366839870135" at="155,17,156,115" concept="1" />
+      <node id="3247502366839880931" at="156,115,157,196" concept="1" />
+      <node id="5166003667293499742" at="157,196,158,206" concept="1" />
+      <node id="3247502366839870126" at="158,206,159,22" concept="6" />
+      <node id="3247502366839870126" at="150,0,161,0" concept="8" trace="createDescriptorForHotel#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="3247502366839870126" at="65,39,66,30" />
+      <scope id="3247502366839870126" at="150,63,159,22">
+        <var name="b" id="3247502366839870126" />
+      </scope>
+      <scope id="3247502366839870126" at="150,0,161,0" />
+    </file>
+  </root>
+  <root nodeRef="r:c1ca0d93-0221-4e5d-94f3-6bf04aa3666a(HotelBooking.structure)/3247502366839880299">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="3247502366839880299" at="19,0,20,0" concept="2" trace="props_Room" />
+      <node id="3247502366839880299" at="84,33,85,76" concept="5" />
+      <node id="3247502366839880299" at="85,76,86,67" concept="1" />
+      <node id="3247502366839880299" at="86,67,87,36" concept="1" />
+      <node id="3247502366839880299" at="88,9,89,26" concept="6" />
+      <node id="3247502366839880299" at="83,38,88,9" concept="3" />
+      <scope id="3247502366839880299" at="84,33,87,36">
+        <var name="cpb" id="3247502366839880299" />
+      </scope>
+      <scope id="3247502366839880299" at="83,38,89,26" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="3247502366839880299" at="19,0,20,0" concept="7" trace="Room" />
+      <node id="3247502366839880299" at="32,44,33,43" concept="1" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="3247502366839880299" at="26,0,27,0" concept="2" trace="myConceptRoom" />
+      <node id="3247502366839880299" at="67,38,68,29" concept="6" />
+      <node id="3247502366839880299" at="161,62,162,150" concept="5" />
+      <node id="3247502366839880299" at="162,150,163,33" concept="1" />
+      <node id="3247502366839880299" at="164,75,165,99" concept="1" />
+      <node id="3247502366839880299" at="165,99,166,17" concept="1" />
+      <node id="3247502366839880312" at="166,17,167,117" concept="1" />
+      <node id="2805330507320325026" at="167,117,168,118" concept="1" />
+      <node id="269847891528015858" at="168,118,169,112" concept="1" />
+      <node id="269847891528015862" at="169,112,170,118" concept="1" />
+      <node id="269847891528015867" at="170,118,171,119" concept="1" />
+      <node id="9200123026167332901" at="171,119,172,202" concept="1" />
+      <node id="9200123026167332886" at="172,202,173,196" concept="1" />
+      <node id="3247502366839880299" at="173,196,174,20" concept="1" />
+      <node id="3247502366839880299" at="174,20,175,22" concept="6" />
+      <node id="3247502366839880299" at="161,0,177,0" concept="8" trace="createDescriptorForRoom#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="3247502366839880299" at="67,38,68,29" />
+      <scope id="3247502366839880299" at="161,62,175,22">
+        <var name="b" id="3247502366839880299" />
+      </scope>
+      <scope id="3247502366839880299" at="161,0,177,0" />
+    </file>
+  </root>
+  <root nodeRef="r:c1ca0d93-0221-4e5d-94f3-6bf04aa3666a(HotelBooking.structure)/3247502366839880314">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="3247502366839880314" at="12,0,13,0" concept="2" trace="props_Bed" />
+      <node id="3247502366839880314" at="30,32,31,76" concept="5" />
+      <node id="3247502366839880314" at="31,76,32,40" concept="1" />
+      <node id="3247502366839880314" at="32,40,33,37" concept="1" />
+      <node id="3247502366839880314" at="33,37,34,35" concept="1" />
+      <node id="3247502366839880314" at="35,9,36,25" concept="6" />
+      <node id="3247502366839880314" at="29,37,35,9" concept="3" />
+      <scope id="3247502366839880314" at="30,32,34,35">
+        <var name="cpb" id="3247502366839880314" />
+      </scope>
+      <scope id="3247502366839880314" at="29,37,36,25" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="3247502366839880314" at="12,0,13,0" concept="7" trace="Bed" />
+      <node id="3247502366839880314" at="25,115,26,42" concept="1" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="3247502366839880314" at="19,0,20,0" concept="2" trace="myConceptBed" />
+      <node id="3247502366839880314" at="53,37,54,28" concept="6" />
+      <node id="3247502366839880314" at="89,61,90,149" concept="5" />
+      <node id="3247502366839880314" at="90,149,91,34" concept="1" />
+      <node id="3247502366839880314" at="92,75,93,99" concept="1" />
+      <node id="3247502366839880314" at="93,99,94,17" concept="1" />
+      <node id="2805330507320336431" at="94,17,95,174" concept="1" />
+      <node id="3247502366839880314" at="95,174,96,19" concept="1" />
+      <node id="3247502366839880314" at="96,19,97,22" concept="6" />
+      <node id="3247502366839880314" at="89,0,99,0" concept="8" trace="createDescriptorForBed#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="3247502366839880314" at="53,37,54,28" />
+      <scope id="3247502366839880314" at="89,61,97,22">
+        <var name="b" id="3247502366839880314" />
+      </scope>
+      <scope id="3247502366839880314" at="89,0,99,0" />
+    </file>
+  </root>
+  <root nodeRef="r:c1ca0d93-0221-4e5d-94f3-6bf04aa3666a(HotelBooking.structure)/3247502366839880933">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="3247502366839880933" at="20,0,21,0" concept="2" trace="props_StandardRoom" />
+      <node id="3247502366839880933" at="91,41,92,76" concept="5" />
+      <node id="3247502366839880933" at="92,76,93,145" concept="1" />
+      <node id="3247502366839880933" at="93,145,94,41" concept="1" />
+      <node id="3247502366839880933" at="94,41,95,44" concept="1" />
+      <node id="3247502366839880933" at="96,9,97,34" concept="6" />
+      <node id="3247502366839880933" at="90,46,96,9" concept="3" />
+      <scope id="3247502366839880933" at="91,41,95,44">
+        <var name="cpb" id="3247502366839880933" />
+      </scope>
+      <scope id="3247502366839880933" at="90,46,97,34" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="3247502366839880933" at="20,0,21,0" concept="7" trace="StandardRoom" />
+      <node id="3247502366839880933" at="33,43,34,51" concept="1" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="3247502366839880933" at="27,0,28,0" concept="2" trace="myConceptStandardRoom" />
+      <node id="3247502366839880933" at="69,46,70,37" concept="6" />
+      <node id="3247502366839880933" at="177,70,178,158" concept="5" />
+      <node id="3247502366839880933" at="178,158,179,34" concept="1" />
+      <node id="3247502366839880933" at="179,34,180,106" concept="1" />
+      <node id="3247502366839880933" at="180,106,181,99" concept="1" />
+      <node id="3247502366839880933" at="181,99,182,17" concept="1" />
+      <node id="3247502366839880933" at="182,17,183,23" concept="1" />
+      <node id="3247502366839880933" at="183,23,184,22" concept="6" />
+      <node id="3247502366839880933" at="177,0,186,0" concept="8" trace="createDescriptorForStandardRoom#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="3247502366839880933" at="69,46,70,37" />
+      <scope id="3247502366839880933" at="177,70,184,22">
+        <var name="b" id="3247502366839880933" />
+      </scope>
+      <scope id="3247502366839880933" at="177,0,186,0" />
+    </file>
+  </root>
+  <root nodeRef="r:c1ca0d93-0221-4e5d-94f3-6bf04aa3666a(HotelBooking.structure)/5166003667293451627">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="5166003667293451627" at="13,0,14,0" concept="2" trace="props_Booking" />
+      <node id="5166003667293451627" at="38,36,39,76" concept="5" />
+      <node id="5166003667293451627" at="39,76,40,78" concept="1" />
+      <node id="5166003667293451627" at="40,78,41,41" concept="1" />
+      <node id="5166003667293451627" at="41,41,42,39" concept="1" />
+      <node id="5166003667293451627" at="43,9,44,29" concept="6" />
+      <node id="5166003667293451627" at="37,41,43,9" concept="3" />
+      <scope id="5166003667293451627" at="38,36,42,39">
+        <var name="cpb" id="5166003667293451627" />
+      </scope>
+      <scope id="5166003667293451627" at="37,41,44,29" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="5166003667293451627" at="13,0,14,0" concept="7" trace="Booking" />
+      <node id="5166003667293451627" at="26,42,27,46" concept="1" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="5166003667293451627" at="20,0,21,0" concept="2" trace="myConceptBooking" />
+      <node id="5166003667293451627" at="55,41,56,32" concept="6" />
+      <node id="5166003667293451627" at="99,65,100,153" concept="5" />
+      <node id="5166003667293451627" at="100,153,101,34" concept="1" />
+      <node id="5166003667293451627" at="101,34,102,99" concept="1" />
+      <node id="5166003667293451627" at="102,99,103,17" concept="1" />
+      <node id="5166003667293451641" at="103,17,104,117" concept="1" />
+      <node id="5166003667293451648" at="104,117,105,118" concept="1" />
+      <node id="5472535497240773510" at="105,118,106,117" concept="1" />
+      <node id="5472535497241529331" at="106,117,107,200" concept="1" />
+      <node id="5472535497241567314" at="107,200,108,201" concept="1" />
+      <node id="5166003667293451627" at="108,201,109,23" concept="1" />
+      <node id="5166003667293451627" at="109,23,110,22" concept="6" />
+      <node id="5166003667293451627" at="99,0,112,0" concept="8" trace="createDescriptorForBooking#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="5166003667293451627" at="55,41,56,32" />
+      <scope id="5166003667293451627" at="99,65,110,22">
+        <var name="b" id="5166003667293451627" />
+      </scope>
+      <scope id="5166003667293451627" at="99,0,112,0" />
+    </file>
+  </root>
+  <root nodeRef="r:c1ca0d93-0221-4e5d-94f3-6bf04aa3666a(HotelBooking.structure)/5166003667293451654">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="5166003667293451654" at="14,0,15,0" concept="2" trace="props_BookingManager" />
+      <node id="5166003667293451654" at="46,43,47,76" concept="5" />
+      <node id="5166003667293451654" at="47,76,48,63" concept="1" />
+      <node id="5166003667293451654" at="48,63,49,49" concept="1" />
+      <node id="5166003667293451654" at="49,49,50,46" concept="1" />
+      <node id="5166003667293451654" at="51,9,52,36" concept="6" />
+      <node id="5166003667293451654" at="45,48,51,9" concept="3" />
+      <scope id="5166003667293451654" at="46,43,50,46">
+        <var name="cpb" id="5166003667293451654" />
+      </scope>
+      <scope id="5166003667293451654" at="45,48,52,36" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="5166003667293451654" at="14,0,15,0" concept="7" trace="BookingManager" />
+      <node id="5166003667293451654" at="27,46,28,53" concept="1" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="5166003667293451654" at="21,0,22,0" concept="2" trace="myConceptBookingManager" />
+      <node id="5166003667293451654" at="57,48,58,39" concept="6" />
+      <node id="5166003667293451654" at="112,72,113,160" concept="5" />
+      <node id="5166003667293451654" at="113,160,114,34" concept="1" />
+      <node id="5166003667293451654" at="114,34,115,99" concept="1" />
+      <node id="5166003667293451654" at="115,99,116,17" concept="1" />
+      <node id="5166003667293451655" at="116,17,117,199" concept="1" />
+      <node id="5166003667293451654" at="117,199,118,31" concept="1" />
+      <node id="5166003667293451654" at="118,31,119,22" concept="6" />
+      <node id="5166003667293451654" at="112,0,121,0" concept="8" trace="createDescriptorForBookingManager#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="5166003667293451654" at="57,48,58,39" />
+      <scope id="5166003667293451654" at="112,72,119,22">
+        <var name="b" id="5166003667293451654" />
+      </scope>
+      <scope id="5166003667293451654" at="112,0,121,0" />
+    </file>
+  </root>
+  <root nodeRef="r:c1ca0d93-0221-4e5d-94f3-6bf04aa3666a(HotelBooking.structure)/5166003667293451659">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="5166003667293451659" at="16,0,17,0" concept="2" trace="props_Date" />
+      <node id="5166003667293451659" at="60,33,61,76" concept="5" />
+      <node id="5166003667293451659" at="61,76,62,75" concept="1" />
+      <node id="5166003667293451659" at="62,75,63,38" concept="1" />
+      <node id="5166003667293451659" at="63,38,64,36" concept="1" />
+      <node id="5166003667293451659" at="65,9,66,26" concept="6" />
+      <node id="5166003667293451659" at="59,38,65,9" concept="3" />
+      <scope id="5166003667293451659" at="60,33,64,36">
+        <var name="cpb" id="5166003667293451659" />
+      </scope>
+      <scope id="5166003667293451659" at="59,38,66,26" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="5166003667293451659" at="16,0,17,0" concept="7" trace="Date" />
+      <node id="5166003667293451659" at="29,49,30,43" concept="1" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="5166003667293451659" at="23,0,24,0" concept="2" trace="myConceptDate" />
+      <node id="5166003667293451659" at="61,38,62,29" concept="6" />
+      <node id="5166003667293451659" at="130,62,131,150" concept="5" />
+      <node id="5166003667293451659" at="131,150,132,34" concept="1" />
+      <node id="5166003667293451659" at="132,34,133,99" concept="1" />
+      <node id="5166003667293451659" at="133,99,134,17" concept="1" />
+      <node id="5166003667293451660" at="134,17,135,110" concept="1" />
+      <node id="5166003667293451662" at="135,110,136,112" concept="1" />
+      <node id="5166003667293451665" at="136,112,137,111" concept="1" />
+      <node id="5166003667293451659" at="137,111,138,20" concept="1" />
+      <node id="5166003667293451659" at="138,20,139,22" concept="6" />
+      <node id="5166003667293451659" at="130,0,141,0" concept="8" trace="createDescriptorForDate#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="5166003667293451659" at="61,38,62,29" />
+      <scope id="5166003667293451659" at="130,62,139,22">
+        <var name="b" id="5166003667293451659" />
+      </scope>
+      <scope id="5166003667293451659" at="130,0,141,0" />
+    </file>
+  </root>
+  <root nodeRef="r:c1ca0d93-0221-4e5d-94f3-6bf04aa3666a(HotelBooking.structure)/7800746296160739298">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="7800746296160739298" at="21,0,22,0" concept="2" trace="props_Studio" />
+      <node id="7800746296160739298" at="99,35,100,76" concept="5" />
+      <node id="7800746296160739298" at="100,76,101,104" concept="1" />
+      <node id="7800746296160739298" at="101,104,102,40" concept="1" />
+      <node id="7800746296160739298" at="102,40,103,38" concept="1" />
+      <node id="7800746296160739298" at="104,9,105,28" concept="6" />
+      <node id="7800746296160739298" at="98,40,104,9" concept="3" />
+      <scope id="7800746296160739298" at="99,35,103,38">
+        <var name="cpb" id="7800746296160739298" />
+      </scope>
+      <scope id="7800746296160739298" at="98,40,105,28" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="7800746296160739298" at="21,0,22,0" concept="7" trace="Studio" />
+      <node id="7800746296160739298" at="34,51,35,45" concept="1" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="7800746296160739298" at="28,0,29,0" concept="2" trace="myConceptStudio" />
+      <node id="7800746296160739298" at="71,40,72,31" concept="6" />
+      <node id="7800746296160739298" at="186,64,187,152" concept="5" />
+      <node id="7800746296160739298" at="187,152,188,34" concept="1" />
+      <node id="7800746296160739298" at="188,34,189,106" concept="1" />
+      <node id="7800746296160739298" at="189,106,190,99" concept="1" />
+      <node id="7800746296160739298" at="190,99,191,17" concept="1" />
+      <node id="7800746296160739298" at="191,17,192,22" concept="1" />
+      <node id="7800746296160739298" at="192,22,193,22" concept="6" />
+      <node id="7800746296160739298" at="186,0,195,0" concept="8" trace="createDescriptorForStudio#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="7800746296160739298" at="71,40,72,31" />
+      <scope id="7800746296160739298" at="186,64,193,22">
+        <var name="b" id="7800746296160739298" />
+      </scope>
+      <scope id="7800746296160739298" at="186,0,195,0" />
+    </file>
+  </root>
+  <root nodeRef="r:c1ca0d93-0221-4e5d-94f3-6bf04aa3666a(HotelBooking.structure)/9200123026167332830">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="9200123026167332830" at="22,0,23,0" concept="2" trace="props_Suite" />
+      <node id="9200123026167332830" at="107,34,108,76" concept="5" />
+      <node id="9200123026167332830" at="108,76,109,101" concept="1" />
+      <node id="9200123026167332830" at="109,101,110,39" concept="1" />
+      <node id="9200123026167332830" at="110,39,111,37" concept="1" />
+      <node id="9200123026167332830" at="112,9,113,27" concept="6" />
+      <node id="9200123026167332830" at="106,39,112,9" concept="3" />
+      <scope id="9200123026167332830" at="107,34,111,37">
+        <var name="cpb" id="9200123026167332830" />
+      </scope>
+      <scope id="9200123026167332830" at="106,39,113,27" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="9200123026167332830" at="22,0,23,0" concept="7" trace="Suite" />
+      <node id="9200123026167332830" at="35,45,36,44" concept="1" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="9200123026167332830" at="29,0,30,0" concept="2" trace="myConceptSuite" />
+      <node id="9200123026167332830" at="73,39,74,30" concept="6" />
+      <node id="9200123026167332830" at="195,63,196,151" concept="5" />
+      <node id="9200123026167332830" at="196,151,197,34" concept="1" />
+      <node id="9200123026167332830" at="197,34,198,106" concept="1" />
+      <node id="9200123026167332830" at="198,106,199,99" concept="1" />
+      <node id="9200123026167332830" at="199,99,200,17" concept="1" />
+      <node id="9200123026167332830" at="200,17,201,21" concept="1" />
+      <node id="9200123026167332830" at="201,21,202,22" concept="6" />
+      <node id="9200123026167332830" at="195,0,204,0" concept="8" trace="createDescriptorForSuite#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="9200123026167332830" at="73,39,74,30" />
+      <scope id="9200123026167332830" at="195,63,202,22">
+        <var name="b" id="9200123026167332830" />
+      </scope>
+      <scope id="9200123026167332830" at="195,0,204,0" />
+    </file>
+  </root>
+  <root nodeRef="r:c1ca0d93-0221-4e5d-94f3-6bf04aa3666a(HotelBooking.structure)/9200123026167332898">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="9200123026167332898" at="17,0,18,0" concept="2" trace="props_Facility" />
+      <node id="9200123026167332898" at="68,37,69,76" concept="5" />
+      <node id="9200123026167332898" at="69,76,70,60" concept="1" />
+      <node id="9200123026167332898" at="70,60,71,42" concept="1" />
+      <node id="9200123026167332898" at="71,42,72,40" concept="1" />
+      <node id="9200123026167332898" at="73,9,74,30" concept="6" />
+      <node id="9200123026167332898" at="67,42,73,9" concept="3" />
+      <scope id="9200123026167332898" at="68,37,72,40">
+        <var name="cpb" id="9200123026167332898" />
+      </scope>
+      <scope id="9200123026167332898" at="67,42,74,30" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="9200123026167332898" at="17,0,18,0" concept="7" trace="Facility" />
+      <node id="9200123026167332898" at="30,43,31,47" concept="1" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="9200123026167332898" at="24,0,25,0" concept="2" trace="myConceptFacility" />
+      <node id="9200123026167332898" at="63,42,64,33" concept="6" />
+      <node id="9200123026167332898" at="141,66,142,154" concept="5" />
+      <node id="9200123026167332898" at="142,154,143,34" concept="1" />
+      <node id="9200123026167332898" at="144,75,145,99" concept="1" />
+      <node id="9200123026167332898" at="145,99,146,17" concept="1" />
+      <node id="2805330507320338296" at="146,17,147,174" concept="1" />
+      <node id="9200123026167332898" at="147,174,148,22" concept="6" />
+      <node id="9200123026167332898" at="141,0,150,0" concept="8" trace="createDescriptorForFacility#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="9200123026167332898" at="63,42,64,33" />
+      <scope id="9200123026167332898" at="141,66,148,22">
+        <var name="b" id="9200123026167332898" />
+      </scope>
+      <scope id="9200123026167332898" at="141,0,150,0" />
+    </file>
+  </root>
+  <root nodeRef="r:c1ca0d93-0221-4e5d-94f3-6bf04aa3666a(HotelBooking.structure)/9200123026167605330">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="9200123026167605330" at="15,0,16,0" concept="2" trace="props_Chargeable" />
+      <node id="9200123026167605330" at="54,39,55,76" concept="5" />
+      <node id="9200123026167605330" at="55,76,56,42" concept="1" />
+      <node id="9200123026167605330" at="57,9,58,32" concept="6" />
+      <node id="9200123026167605330" at="53,44,57,9" concept="3" />
+      <scope id="9200123026167605330" at="54,39,56,42">
+        <var name="cpb" id="9200123026167605330" />
+      </scope>
+      <scope id="9200123026167605330" at="53,44,58,32" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="9200123026167605330" at="15,0,16,0" concept="7" trace="Chargeable" />
+      <node id="9200123026167605330" at="28,53,29,49" concept="1" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="9200123026167605330" at="22,0,23,0" concept="2" trace="myConceptChargeable" />
+      <node id="9200123026167605330" at="59,44,60,35" concept="6" />
+      <node id="9200123026167605330" at="91,34,92,75" concept="1" />
+      <node id="9200123026167605330" at="121,68,122,156" concept="5" />
+      <node id="9200123026167605330" at="122,156,123,19" concept="1" />
+      <node id="9200123026167605330" at="123,19,124,99" concept="1" />
+      <node id="9200123026167605330" at="124,99,125,17" concept="1" />
+      <node id="9200123026167605350" at="125,17,126,112" concept="1" />
+      <node id="2805330507320336421" at="126,112,127,113" concept="1" />
+      <node id="9200123026167605330" at="127,113,128,22" concept="6" />
+      <node id="9200123026167605330" at="143,34,144,75" concept="1" />
+      <node id="9200123026167605330" at="163,33,164,75" concept="1" />
+      <node id="9200123026167605330" at="121,0,130,0" concept="8" trace="createDescriptorForChargeable#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="9200123026167605330" at="59,44,60,35" />
+      <scope id="9200123026167605330" at="121,68,128,22">
+        <var name="b" id="9200123026167605330" />
+      </scope>
+      <scope id="9200123026167605330" at="121,0,130,0" />
+    </file>
+  </root>
+  <root nodeRef="r:c1ca0d93-0221-4e5d-94f3-6bf04aa3666a(HotelBooking.structure)/9200123026168039037">
+    <file name="EnumerationDescriptor_FacillityName.java">
+      <node id="9200123026168039037" at="15,48,16,199" concept="9" />
+      <node id="9200123026168039038" at="19,0,20,0" concept="2" trace="VALUE_Bathroom_0" />
+      <node id="9200123026168039039" at="20,0,21,0" concept="2" trace="VALUE_Kitchen_0" />
+      <node id="9200123026168039042" at="21,0,22,0" concept="2" trace="VALUE_LivingArea_0" />
+      <node id="7800746296160878316" at="22,0,23,0" concept="2" trace="VALUE_futon_0" />
+      <node id="9200123026168039037" at="26,62,27,28" concept="6" />
+      <node id="9200123026168039037" at="32,74,33,95" concept="6" />
+      <node id="9200123026168039037" at="39,25,40,18" concept="6" />
+      <node id="9200123026168039038" at="43,22,44,32" concept="6" />
+      <node id="9200123026168039039" at="45,21,46,31" concept="6" />
+      <node id="9200123026168039042" at="47,24,48,34" concept="6" />
+      <node id="7800746296160878316" at="49,19,50,29" concept="6" />
+      <node id="9200123026168039037" at="51,5,52,16" concept="6" />
+      <node id="9200123026168039037" at="15,0,18,0" concept="0" trace="EnumerationDescriptor_FacillityName#()V" />
+      <node id="9200123026168039037" at="38,84,41,5" concept="3" />
+      <node id="9200123026168039037" at="24,0,29,0" concept="4" trace="getDefault#()Ljetbrains/mps/smodel/runtime/EnumerationDescriptor/MemberDescriptor;" />
+      <node id="9200123026168039037" at="30,0,35,0" concept="4" trace="getMembers#()Ljava/util/Collection;" />
+      <node id="9200123026168039037" at="41,5,51,5" concept="10" />
+      <node id="9200123026168039037" at="36,0,54,0" concept="4" trace="getMember#(Ljava/lang/String;)Ljetbrains/mps/smodel/runtime/EnumerationDescriptor/MemberDescriptor;" />
+      <scope id="9200123026168039037" at="15,48,16,199" />
+      <scope id="9200123026168039037" at="26,62,27,28" />
+      <scope id="9200123026168039037" at="32,74,33,95" />
+      <scope id="9200123026168039037" at="39,25,40,18" />
+      <scope id="9200123026168039038" at="43,22,44,32" />
+      <scope id="9200123026168039039" at="45,21,46,31" />
+      <scope id="9200123026168039042" at="47,24,48,34" />
+      <scope id="7800746296160878316" at="49,19,50,29" />
+      <scope id="9200123026168039037" at="15,0,18,0" />
+      <scope id="9200123026168039037" at="24,0,29,0" />
+      <scope id="9200123026168039037" at="30,0,35,0" />
+      <scope id="9200123026168039037" at="38,84,52,16" />
+      <scope id="9200123026168039037" at="36,0,54,0">
+        <var name="string" id="9200123026168039037" />
+      </scope>
+      <unit id="9200123026168039037" at="13,0,55,0" name="HotelBooking.structure.EnumerationDescriptor_FacillityName" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="9200123026168039037" at="31,0,32,0" concept="2" trace="myEnumerationFacillityName" />
+    </file>
+  </root>
+</debug-info>
+

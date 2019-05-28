@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="HotelBooking.Language">
+    <classNode dependClassName="HotelBooking.actions.ActionAspectDescriptorImpl" />
+    <classNode dependClassName="HotelBooking.behavior.BehaviorAspectDescriptor" />
+    <classNode dependClassName="HotelBooking.constraints.ConstraintsAspectDescriptor" />
+    <classNode dependClassName="HotelBooking.editor.EditorAspectDescriptorImpl" />
+    <classNode dependClassName="HotelBooking.structure.ConceptPresentationAspectImpl" />
+    <classNode dependClassName="HotelBooking.structure.StructureAspectDescriptor" />
+    <classNode dependClassName="HotelBooking.textGen.TextGenAspectDescriptor" />
+    <classNode dependClassName="HotelBooking.vcs.VCSDescriptor" />
+    <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Collection" />
+    <classNode dependClassName="jetbrains.mps.openapi.actions.descriptor.ActionAspectDescriptor" />
+    <classNode dependClassName="jetbrains.mps.openapi.editor.descriptor.EditorAspectDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.adapter.ids.SLanguageId" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.BehaviorAspectDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.ConceptPresentationAspect" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.ConstraintsAspectDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.ILanguageAspect" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.StructureAspectDescriptor" />
+    <classNode dependClassName="jetbrains.mps.text.rt.TextGenAspectDescriptor" />
+    <classNode dependClassName="jetbrains.mps.vcs.mergehints.runtime.VCSAspectDescriptor" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.language.SLanguage" />
+    <classNode extendsClassName="jetbrains.mps.smodel.language.LanguageRuntime" />
+  </dependency>
+</dependenciesRoot>
+

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="cvpc0scqdm94lgsxsrru565hlgj2jn4">
+  <files names="Bed__BehaviorDescriptor.java:BehaviorAspectDescriptor.java:BookingManager__BehaviorDescriptor.java:Booking__BehaviorDescriptor.java:Chargeable__BehaviorDescriptor.java:Date__BehaviorDescriptor.java:Hotel__BehaviorDescriptor.java:Room__BehaviorDescriptor.java:StandardRoom__BehaviorDescriptor.java:Studio__BehaviorDescriptor.java:Suite__BehaviorDescriptor.java" />
+</product>
+
